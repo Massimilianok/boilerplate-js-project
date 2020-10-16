@@ -1,1 +1,1 @@
-# boilerplate-js-project
+# webpack for js project
