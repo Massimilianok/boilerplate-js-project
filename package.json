@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate-js-project",
+  "name": "webpack-js-project",
   "version": "1.0.0",
-  "description": "The boilerplate for the JS project",
+  "description": "Webpack configuration for the JS project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Massimilianok/boilerplate-js-project.git"
+    "url": "git+https://github.com/Massimilianok/webpack-js-project.git"
   },
   "author": "Massimiliano Rizzuto",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Massimilianok/boilerplate-js-project/issues"
+    "url": "https://github.com/Massimilianok/webpack-js-project/issues"
   },
-  "homepage": "https://github.com/Massimilianok/boilerplate-js-project#readme",
+  "homepage": "https://github.com/Massimilianok/webpack-js-project#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^5.0.0",
