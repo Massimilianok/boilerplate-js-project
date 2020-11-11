@@ -1,12 +1,24 @@
 function helloWorld() {
   const app = document.getElementById('app');
+  const container = document.createElement('div');
   const title = document.createElement('h1');
   const icon = document.createElement('i');
 
-  icon.classList.add('fas', 'fa-globe');
+  container.classList.add(
+    'container-fluid',
+    'app',
+    'd-flex',
+    'flex-column',
+    'align-items-center',
+    'justify-content-center'
+  );
+  icon.classList.add('fab', 'fa-js-square', 'app-icon');
+  title.classList.add('app-title');
   title.textContent = 'Hello World!';
-  app.appendChild(icon);
-  app.appendChild(title);
+
+  container.appendChild(icon);
+  container.appendChild(title);
+  app.appendChild(container);
 }
 
 export default helloWorld;
